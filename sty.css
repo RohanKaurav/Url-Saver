@@ -1,0 +1,46 @@
+body{
+    margin:0;
+    padding:10px;
+    min-width:400px;
+}
+button{
+    
+
+    padding:10px 20px;
+    
+    background-color:green;
+    
+    font-weight: bold;
+    border:none;
+    color:white;
+    margin-top:10px;
+   
+}
+.delete-btn{
+    display: none;
+    color:red;
+    padding: 0;
+    background-color: white;
+    margin-left: 2.5px;
+    cursor: pointer;
+}
+
+input{
+    box-sizing:border-box;
+    width:100%;
+    border-color:rgb(41, 214, 41);
+    padding :10px;
+    
+}
+ul{
+    list-style:none;
+    padding-left:2px ;
+}
+li{
+    margin-top:5px;
+    margin-bottom:5px;
+}
+li:hover .delete-btn {
+    display: inline-block; /* Show the delete button when hovering over the <li> */
+    padding: none none;
+  }
